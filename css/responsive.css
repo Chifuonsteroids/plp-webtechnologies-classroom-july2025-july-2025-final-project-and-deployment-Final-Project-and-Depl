@@ -1,0 +1,40 @@
+/* 📱 Responsive Styles */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+  }
+
+  .service-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .nav-links li {
+    margin: 0.5rem 0;
+  }
+
+  .hero {
+    height: 70vh;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}

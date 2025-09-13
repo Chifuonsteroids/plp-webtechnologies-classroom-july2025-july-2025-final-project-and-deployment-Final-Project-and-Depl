@@ -1,0 +1,40 @@
+/* 🎨 Gallery Page Only */
+.gallery {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.filter-buttons {
+  margin-bottom: 2rem;
+}
+
+.filter-buttons button {
+  margin: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  background: var(--secondary-color);
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.filter-buttons button:hover {
+  background: var(--primary-color);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
