@@ -1,90 +1,81 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🚀 A LensFlare Photography Website.
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+A fully responsive **multi-page website** built with **vanilla HTML, CSS, and JavaScript**.
+This project represents a photography portfolio of a company called Lens Flare
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 📂 Features
 
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+* ✅ **Responsive layout** – Works on mobile, tablet, and desktop
+* ✅ **Gradient navigation & hero sections** – Modern blended color scheme
+* ✅ **Pure Vanilla Stack** – No frameworks, no dependencies
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 📁 Project Structure
 
-Before deployment, refactor your project to follow production-friendly practices:
+project-root/
+│
+├── css/
+│   ├── gallery.css
+│   ├── main.css
+│   ├── responsive.css
+│   └── images/
+│
+├── images/
+│   ├── Event1.jpeg
+│   ├── Front.jpeg
+│   ├── Landscape1.jpeg
+│   ├── Portrait1.jpeg
+│   ├── Wedding1.jpeg
+│   └── Wedding2.jpeg
+│
+├── js/
+│   ├── form-validation.js
+│   ├── gallery.js
+│   └── main.js
+│
+├── about.html
+├── contact.html
+├── gallery.html
+├── Hosting URL
+├── index.html
+├── README.md
+└── services.html
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
 
 ---
 
-## Outcome
+## 🛠️ Getting Started
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+### 1. Clone the repo
+
+```bash
+https://github.com/Chifuonsteroids/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl.git
+cd plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl
+```
+
+### 2. Open in browser
+
+Simply open `index.html` in your browser to preview the site.
+*(No build tools required – it’s pure HTML/CSS/JS.)*
+
+---
+
+## 🎨 Customization
+
+* Update colors in `css/style.css` 
+* Replace images in `/images/` with your own.
+* Edit text content directly inside the `.html` files.
+---
+
+## 🌐 Live Demo
+
+- https://web-project-theta-three.vercel.app/
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License – feel free to use, modify, and share.
